@@ -24,5 +24,5 @@ function Banner() {
         </div>
     )
 }
-
+// built done
 export default Banner
