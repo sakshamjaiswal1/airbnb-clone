@@ -28,8 +28,15 @@
   
   .header__center > input {
     border: none;
+    border: 0px solid;
     padding: 10px;
-    outline-width: 0 !important;
+    outline-width: none;
+    /* width: 250px; */
+  }
+  .header__center > input:focus {
+    border: none;
+    padding: 10px;
+    outline-width: 0 
     /* width: 250px; */
   }
   
