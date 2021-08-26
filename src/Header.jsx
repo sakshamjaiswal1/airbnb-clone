@@ -10,13 +10,15 @@ import logo from "./TwitterLogo.png"
 function Header() {
   return (
     <div className="header">
+      <Link to='/'>
       <img
         className="header__icon"
         src="https://i.pinimg.com/originals/3c/bf/be/3cbfbe148597341fa56f2f87ade90956.png"
         alt=""
       />
+      </Link>
       <div className="header__center">
-        <input type="text" />
+        <input type="text" placeholder='Search Here' />
         <SearchIcon />
       </div>
       <div className="header__right">

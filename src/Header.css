@@ -7,6 +7,8 @@
     background-color: white;
     z-index: 100;
     width: 100%;
+    /* margin-top: -10px; */
+    /* margin-bottom: -10px; */
   }
   
   .header__icon {
@@ -45,6 +47,6 @@
     align-items: center;
     justify-content: space-between;
     width: 15vw;
-    margin-right: 80px;
+    margin-right: 20px;
   }
   
